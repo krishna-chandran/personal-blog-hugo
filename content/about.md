@@ -45,7 +45,7 @@ Post my graduation, I rejoined TCS, Farmington hills as Solution Architect. Duri
 After 2 years of experience at TCS, I joined Thordrive Inc, a startup based out of Cincinnati. I joined there as Perception Engineer and worked on perception stack for autonomous tracter. Here, I got chance to work on some of the cutting edge algorithms in the self-driving vehicles. I also worked on Data team, as Lead Data Engineer. I helped them design and develop complete data pipelines for autonomous vehicles. This includes developing features such as handling petabytes of data, data collection of LIDAR, RGB Camera, Thermal Camera & Vehicle logs, data storage in AWS, data visualization, data sampling, data annotation, data clipping, data sync, data validation, data retention policy, data security and reporting.
 
 ## Current Situation 
-I am currently looking for good job oppurtunities in the areas of both Robotics and Information Technology. 
+I am currently working with Agtonomy, an Agtech Roboticscompany. 
 
 
 ## Past Clients
