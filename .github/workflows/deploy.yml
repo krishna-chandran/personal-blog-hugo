@@ -32,7 +32,7 @@ jobs:
         ssh-keyscan github.com >> ~/.ssh/known_hosts
 
         # Clone the portfolio repository
-        git clone git@github.com:user/portfolio.git deploy_repo
+        git clone git@github.com:krishna-chandran/portfolio.git deploy_repo
         rsync -av --delete public/ deploy_repo/
 
         # Commit and push changes
