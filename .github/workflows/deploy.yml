@@ -40,5 +40,5 @@ jobs:
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
         git add .
-        git commit -m "Update site [skip ci]"
+        git commit -m "Update sites [skip ci]"
         git push origin main  # Change to your target branch if necessary
