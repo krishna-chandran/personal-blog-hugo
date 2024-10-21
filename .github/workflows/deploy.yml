@@ -37,8 +37,8 @@ jobs:
 
         # Commit and push changes
         cd deploy_repo
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
+        git config user.name "Krishnakumar Chandran"
+        git config user.email "mail2krishnachandran@gmail.com"
         git add .
         git commit -m "Update site [skip ci]"
         git push origin main  # Change to your target branch if necessary
