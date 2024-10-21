@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud-Computing on Krishnakumar Chandran</title><link>https://krishna-chandran.github.io/portfolio/tags/cloud-computing/</link><description>Recent content in Cloud-Computing on Krishnakumar Chandran</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://krishna-chandran.github.io/portfolio/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment of distributed web application in Cloud Administration</title><link>https://krishna-chandran.github.io/portfolio/projects/distributed-app-cloud-deployment/</link><pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate><guid>https://krishna-chandran.github.io/portfolio/projects/distributed-app-cloud-deployment/</guid><description>&lt;p>&lt;img src="./images/tcs-logo.png" alt="">&lt;/p>
+&lt;h3 id="highlights">Highlights &lt;a href="#highlights" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Developed Ansible scripts to validate Linux VM capacity and installation prerequisites&lt;/li>
+&lt;li>Provisioned Linux VM in Cloud environment using automated scripts&lt;/li>
+&lt;li>Performed post-provisioning activities such as IAM, LDAP integration, updating security roles, filesystem creation and Linux patching&lt;/li>
+&lt;li>Used Ansible to install prerequistes and infra components in all 12 VMs including JAVA JRE, Postgresql, Hadoop ecosystems and Neo4j database&lt;/li>
+&lt;li>Used Ansible to install java application, creation of services, update configurations and installation of Elasticsearch, Logstash and Kibana&lt;/li>
+&lt;li>Performed deployment validation checks using Ansible powered tool called Enigma&lt;/li>
+&lt;/ul>
+&lt;h3 id="problem-statement">Problem Statement &lt;a href="#problem-statement" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Aim is to install ignio with High Availability Architecture in distributed cloud environment&lt;/li>
+&lt;/ul>
+&lt;h3 id="ideation">Ideation &lt;a href="#ideation" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="solution-methodology">Solution Methodology &lt;a href="#solution-methodology" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="results-and-conclusion">Results and Conclusion &lt;a href="#results-and-conclusion" class="anchor">🔗&lt;/a>&lt;/h3></description></item><item><title>Alert automation and self-healing</title><link>https://krishna-chandran.github.io/portfolio/projects/ignio-alert-automation/</link><pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate><guid>https://krishna-chandran.github.io/portfolio/projects/ignio-alert-automation/</guid><description>&lt;p>&lt;img src="./images/tcs-logo.png" alt="TCS Logo">&lt;/p>
+&lt;h3 id="highlights">Highlights &lt;a href="#highlights" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Reduced duplicate alerts by 80%&lt;/li>
+&lt;li>Smart handling of alerts by using Probable cause analysis to find the root cause and fix them, ignoring other dependant tasks&lt;/li>
+&lt;li>Created adapters to integrate ignio with ServiceNow, Solarwinds and AppDynamics using REST API&lt;/li>
+&lt;li>Created dynamic profiling of systems, VMs, Applications, Databases, Network and storage entities&lt;/li>
+&lt;li>Using dynamic profiles, predicting if the alert is valid for the given conditions&lt;/li>
+&lt;li>Auto verify and apply self-healing scripts to address those alerts&lt;/li>
+&lt;li>Automated more than 90% of repeated IT Alert and hence enabling technical team to work on solutioning rather than monitoring and troubleshooting&lt;/li>
+&lt;/ul>
+&lt;h3 id="problem-statement">Problem Statement &lt;a href="#problem-statement" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Aim is to reduce workload of IT Operations and Monitoring team, by reducing duplicate tickets, reduce troubleshooting and automation using AI&lt;/li>
+&lt;/ul>
+&lt;h3 id="ideation">Ideation &lt;a href="#ideation" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="solution-methodology">Solution Methodology &lt;a href="#solution-methodology" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="results-and-conclusion">Results and Conclusion &lt;a href="#results-and-conclusion" class="anchor">🔗&lt;/a>&lt;/h3></description></item><item><title>Automation of Linux server provisioning</title><link>https://krishna-chandran.github.io/portfolio/projects/linux-server-provisioning/</link><pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate><guid>https://krishna-chandran.github.io/portfolio/projects/linux-server-provisioning/</guid><description>&lt;p>&lt;img src="./images/tcs-logo.png" alt="TCS Logo">&lt;/p>
+&lt;h3 id="highlights">Highlights &lt;a href="#highlights" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Developed automation solution for provisioning linux server in on-perm and cloud data center&lt;/li>
+&lt;/ul>
+&lt;h3 id="problem-statement">Problem Statement &lt;a href="#problem-statement" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Aim is to automate linux server provisioning&lt;/li>
+&lt;/ul>
+&lt;h3 id="ideation">Ideation &lt;a href="#ideation" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="solution-methodology">Solution Methodology &lt;a href="#solution-methodology" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="results-and-conclusion">Results and Conclusion &lt;a href="#results-and-conclusion" class="anchor">🔗&lt;/a>&lt;/h3></description></item><item><title>Log monitoring and Dashboard creation using ELK stack</title><link>https://krishna-chandran.github.io/portfolio/projects/log-monitoring-elk/</link><pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate><guid>https://krishna-chandran.github.io/portfolio/projects/log-monitoring-elk/</guid><description>&lt;p>&lt;img src="./images/tcs-logo.png" alt="TCS Logo">&lt;/p>
+&lt;h3 id="highlights">Highlights &lt;a href="#highlights" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Developed data pipelines for log data streams using filebeat and metricbeat&lt;/li>
+&lt;li>Developed grok filters in logstash for pattern matching and log filtering&lt;/li>
+&lt;li>Collected metrics and analytics are displayed in the dashboard created in&lt;/li>
+&lt;/ul>
+&lt;h3 id="problem-statement">Problem Statement &lt;a href="#problem-statement" class="anchor">🔗&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Aim is to reduce workload of IT Operations and Monitoring team, by reducing duplicate tickets, reduce troubleshooting and automation using AI&lt;/li>
+&lt;/ul>
+&lt;h3 id="ideation">Ideation &lt;a href="#ideation" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="solution-methodology">Solution Methodology &lt;a href="#solution-methodology" class="anchor">🔗&lt;/a>&lt;/h3>&lt;h3 id="results-and-conclusion">Results and Conclusion &lt;a href="#results-and-conclusion" class="anchor">🔗&lt;/a>&lt;/h3></description></item></channel></rss>
