@@ -1,8 +1,8 @@
 ---
 title: "Software Engineer (Data Analytics) , Agtonomy"
 date: 2024-03-24
-skills: ["c++","docker","aws","python","vector","filebeat","logstash","influxdb","timescaledb","time-series"]
-fields: ['Robotics','Self-driving Car','Agtech']
+tags: ["c++","docker","aws","python","vector","filebeat","logstash","influxdb","timescaledb","time-series"]
+categories: ['Robotics','Self-driving Car','Agtech']
 ---
 ![](./images/agtonomy-logo.png)
 ### Work Experience

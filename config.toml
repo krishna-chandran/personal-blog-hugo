@@ -68,10 +68,6 @@ name = "Projects"
 url = "/projects/"
 weight = 40
 
-[[menus.main]]
-name = "Blog"
-url = "/blog/"
-weight = 40
 
 [[menus.main]]
 url = "/about/"
