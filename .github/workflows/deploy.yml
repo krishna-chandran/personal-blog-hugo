@@ -42,3 +42,8 @@ jobs:
         git add .
         git commit -m "Update sites [skip ci]"
         git push origin main  # Change to your target branch if necessary
+
+    - name: Clean Up
+      run: |
+        # Remove the deploy_repo directory to clean up
+        rm -rf deploy_repo
