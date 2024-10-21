@@ -1,0 +1,44 @@
+name: Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - main  # Change this to your main branch if different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build Hugo Site
+      run: hugo --minify
+
+    - name: Deploy to Portfolio Repo
+      env:
+        DEPLOY_KEY: ${{ secrets.HUGO_DEPLOY_KEY }}
+      run: |
+        # Configure SSH
+        mkdir -p ~/.ssh
+        echo "${DEPLOY_KEY}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+        # Clone the portfolio repository
+        git clone git@github.com:user/portfolio.git deploy_repo
+        rsync -av --delete public/ deploy_repo/
+
+        # Commit and push changes
+        cd deploy_repo
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add .
+        git commit -m "Update site [skip ci]"
+        git push origin main  # Change to your target branch if necessary
