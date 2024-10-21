@@ -29,14 +29,18 @@ jobs:
         mkdir -p ~/.ssh
         echo "${DEPLOY_KEY}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 
         # Clone the portfolio repository
         git clone git@github.com:krishna-chandran/portfolio.git deploy_repo
+
+        # Copy generated site to the cloned repository
         rsync -av --delete public/ deploy_repo/
 
-        # Verify changes
+        # Navigate to the deploy_repo directory
         cd deploy_repo
+
+        # Verify the changes
         echo "Files in deploy_repo after rsync:"
         ls -la
 
@@ -44,10 +48,10 @@ jobs:
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
         git add .
-        git status  # Show what is being committed
+        git status  # Show the status to confirm changes
         git commit -m "Update site [skip ci]" || echo "No changes to commit"
-        git push origin main  # Change to your target branch if necessary
-
+        git push origin main || echo "Push failed"
+        
     - name: Clean Up
       run: |
         # Remove the deploy_repo directory to clean up
